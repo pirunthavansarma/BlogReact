@@ -6,7 +6,7 @@ import Post4 from './Post4';
 
 const Posts = () => {
   return (
-    <div>
+    <div className='bg-info-subtle' style={{display:"flex-column",paddingLeft:"200px",height: "100vh" , paddingTop:"20px"}}>
       <Post1 />
       <Post2 />
       <Post3 />

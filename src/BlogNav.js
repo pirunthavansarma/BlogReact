@@ -1,8 +1,10 @@
 import React from 'react';
+
 import blog from '/home/krish/blog/src/Images blog/bloglogo.png';
 
 const BlogNav = () => {
   return (
+    <>
 <nav className="navbar navbar-expand-lg bg-primary ">
   <div className="container-fluid">
     <button
@@ -18,20 +20,20 @@ const BlogNav = () => {
     </button>
     <img src={blog} style={{ height: "40px" }} />
 
-    <a className="navbar-brand" href="#">Blog</a>
+    <a className="navbar-brand" href="/">Blog Platform</a>
     <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">JavaScript</a>
+          <a className="nav-link active" aria-current="page" href="/Post1">JavaScript</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link disabled" aria-disabled="true">Data structure</a>
+          <a className="nav-link active" href="/Post2" >Data structure</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link disabled" aria-disabled="true">Algo</a>
+          <a className="nav-link active" href="/Post3" >Algo</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link disabled" aria-disabled="true">Computer Network</a>
+          <a className="nav-link active" href="/Post4">Computer Network</a>
         </li>
         <li className="nav-item">
           <form className="d-flex" role="search">
@@ -43,6 +45,20 @@ const BlogNav = () => {
     </div>
   </div>
 </nav>
+
+<div class="d-flex  position-absolute top-10 end-0 bg-white ">
+<span class="border">
+<p class="p-2">Recent Posts</p>
+<p><a class="link-offset-3 p-2" href="/Post1">JavaScript</a></p>
+<p><a class="link-offset-3 p-2" href="/Post2">DataStructure</a></p>
+<p><a class="link-offset-3 p-2" href="/Post3">Algo</a></p>
+<p><a class="link-offset-3 p-2" href="/Post4">ComputerNetwork</a></p>
+
+</span>
+
+
+</div>
+</>
 
 
 
