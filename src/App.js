@@ -4,10 +4,13 @@ import Posts from './Posts';
 
 const App = () => {
   return (
-    <div>
-      <BlogNav />
+<>
+<BlogNav />
+    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", }}>
+      
       <Posts />
     </div>
+    </>
   );
 };
 
