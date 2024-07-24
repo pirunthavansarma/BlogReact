@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/BlogReact/static/css/main.31d6cfe0.css",
-    "main.js": "/BlogReact/static/js/main.7c802397.js",
+    "main.js": "/BlogReact/static/js/main.92547c08.js",
     "static/js/453.ede2c593.chunk.js": "/BlogReact/static/js/453.ede2c593.chunk.js",
     "static/media/ComputerNetwork.jpeg": "/BlogReact/static/media/ComputerNetwork.02d4f644d7c8b813afff.jpeg",
     "static/media/javascript-illustration.png": "/BlogReact/static/media/javascript-illustration.45a0e69caea885ad6b08.png",
     "index.html": "/BlogReact/index.html",
-    "main.7c802397.js.map": "/BlogReact/static/js/main.7c802397.js.map",
+    "main.92547c08.js.map": "/BlogReact/static/js/main.92547c08.js.map",
     "453.ede2c593.chunk.js.map": "/BlogReact/static/js/453.ede2c593.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.7c802397.js"
+    "static/js/main.92547c08.js"
   ]
 }
