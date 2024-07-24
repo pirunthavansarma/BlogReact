@@ -15,11 +15,11 @@ const App = () => {
     <BlogNav />
     <Router>
         <Routes >
-        <Route path="/" element={<Posts/>} />
-          <Route path="/Post1" element={<Post1 />} />
-          <Route path="/Post2" element={<Post2 />} />
-          <Route path="/Post3" element={<Post3 />} />
-          <Route path="/Post4" element={<Post4 />} />
+        <Route path="/BlogReact" element={<Posts/>} />
+          <Route path="/BlogReact/Post1" element={<Post1 />} />
+          <Route path="/BlogReact/Post2" element={<Post2 />} />
+          <Route path="/BlogReact/Post3" element={<Post3 />} />
+          <Route path="/BlogReact/Post4" element={<Post4 />} />
         </Routes>
     </Router>
     </>
