@@ -1,6 +1,7 @@
 import React from 'react';
 
 import blog from '/home/krish/blog/src/Images blog/bloglogo.png';
+import { Link } from 'react-router-dom';
 
 const BlogNav = () => {
   return (
