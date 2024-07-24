@@ -51,10 +51,10 @@ const BlogNav = () => {
 <div class="d-flex  position-absolute top-10 end-0 bg-white ">
 <span class="border">
 <p class="p-2">Recent Posts</p>
-<p><a class="link-offset-3 p-2" href="/Post1">JavaScript</a></p>
-<p><a class="link-offset-3 p-2" href="/Post2">DataStructure</a></p>
-<p><a class="link-offset-3 p-2" href="/Post3">Algorithms</a></p>
-<p><a class="link-offset-3 p-2" href="/Post4">ComputerNetwork</a></p>
+<p><a class="link-offset-3 p-2" href="/BlogReact/Post1">JavaScript</a></p>
+<p><a class="link-offset-3 p-2" href="/BlogReact/Post2">DataStructure</a></p>
+<p><a class="link-offset-3 p-2" href="/BlogReact/Post3">Algorithms</a></p>
+<p><a class="link-offset-3 p-2" href="/BlogReact/Post4">ComputerNetwork</a></p>
 
 </span>
 
