@@ -15,7 +15,7 @@ const App = () => {
     <BlogNav />
     <Router>
         <Routes >
-        <Route path="/BlogReact" element={<Posts/>} />
+        <Route path="/" element={<Posts/>} />
           <Route path="/Post1" element={<Post1 />} />
           <Route path="/Post2" element={<Post2 />} />
           <Route path="/Post3" element={<Post3 />} />
