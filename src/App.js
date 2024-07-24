@@ -5,6 +5,7 @@ import Posts from './Posts';
 import Post1 from './Post1';
 import Post2 from './Post2';
 import Post4 from './Post4';
+import Post4 from './Post4';
 import Post3 from './Post3';
 
 const App = () => {
